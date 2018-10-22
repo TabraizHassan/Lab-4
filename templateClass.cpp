@@ -11,19 +11,23 @@ if (v.empty() == false)
 else
   return 0;
 }
+  
+  
 void push(string item)
 {
 v.push_back(item);
-
 }
+  
 void top()
 {
 cout<<v.back()<<endl;
 }
+  
 void pop()
 {
 v.pop_back();
 }
+  
 private:
 vector<string>v;
 
